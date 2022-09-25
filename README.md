@@ -1,5 +1,5 @@
 
-WEBSITE LINK: [I'm an inline-style link](https://mighty-lake-30174.herokuapp.com/)
+WEBSITE LINK: [Demo BLOG](https://mighty-lake-30174.herokuapp.com/)
 
 # DemoBlog
 ## This is  a demo blog which is hosted in Heroku 
