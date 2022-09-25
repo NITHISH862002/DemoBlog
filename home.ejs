@@ -1,0 +1,26 @@
+<%- include("partials/header"); -%>
+<h1>Home</h1>
+<p><%= home %></p>
+
+
+<!-- FOR EACH LOOP -->
+
+<% items.forEach(function(post)
+{ %>
+    <H1> <%= post.title %> </H1>
+    <P> <%= post.content.substring(0,100).concat('...') %> <a href="/posts/<%= post._id %>">ReadMore</a></P>
+  <% })
+   %>
+
+  
+
+
+<!-- 
+<%for(var i=0; i<items.length; i++){%>
+  
+   <h1> <%= items[i].title %> </h1>
+   <p><%= items[i].content %></p>
+  <%}%> -->
+
+
+<%- include("partials/footer"); -%>
